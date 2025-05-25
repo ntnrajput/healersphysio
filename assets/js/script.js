@@ -1,16 +1,26 @@
-// js/scroll-animations.js
-
-document.addEventListener('DOMContentLoaded', () => {
-  const cards = document.querySelectorAll('.program-card');
-
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-      if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
-        observer.unobserve(entry.target);
-      }
+document.addEventListener('DOMContentLoaded', function() {
+    // Initialize Locomotive Scroll
+    const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true,
+        smartphone: {
+            smooth: true
+        },
+        tablet: {
+            smooth: true
+        }
     });
-  }, { threshold: 0.2 });
 
-  cards.forEach(card => observer.observe(card));
+    // Update scroll when window is resized
+    window.addEventListener('resize', () => {
+        scroll.update();
+    });
+
+    // Refresh scroll when images are loaded
+    const images = document.querySelectorAll('img');
+    images.forEach(img => {
+        img.addEventListener('load', () => {
+            scroll.update();
+        });
+    });
 });

@@ -1,13 +1,110 @@
-/* css/style.css */
-
-.program-card {
-  opacity: 0;
-  transform: translateX(100px);
-  transition: all 0.8s ease-in-out;
-  will-change: opacity, transform;
+/* Base Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    overflow-x: hidden;
 }
 
-.program-card.visible {
-  opacity: 1;
-  transform: translateX(0);
+/* Hero Section */
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/hero-bg.jpg');
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+}
+
+/* Programs Section */
+.programs-container {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.programs-track {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: max-content; /* Makes the track as wide as its contents */
+    will-change: transform;
+}
+
+.program {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.program:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+.program:nth-child(even) {
+    background-color: #e8f4ff;
+}
+
+.program-content {
+    width: 40%;
+}
+
+.program-image {
+    width: 50%;
+    height: 70%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.program-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #0066cc;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #004d99;
+    transform: translateY(-3px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .program {
+        flex-direction: column;
+        padding: 20% 10%;
+    }
+    
+    .program-content, .program-image {
+        width: 100%;
+    }
+    
+    .program-image {
+        height: 40%;
+        margin-top: 30px;
+    }
 }
