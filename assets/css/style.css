@@ -24,8 +24,10 @@ body {
 }
 
 /* Programs Section */
+/* Programs Section - Updated */
 .programs-container {
     height: 100vh;
+    width: 100vw;
     position: relative;
     overflow: hidden;
 }
@@ -33,10 +35,8 @@ body {
 .programs-track {
     display: flex;
     position: absolute;
-    left: 0;
-    top: 0;
     height: 100%;
-    width: max-content; /* Makes the track as wide as its contents */
+    width: 400vw; /* 4 programs × 100vw each */
     will-change: transform;
 }
 
@@ -48,6 +48,7 @@ body {
     justify-content: space-between;
     padding: 0 10%;
     box-sizing: border-box;
+    position: relative;
 }
 
 .program:nth-child(odd) {
@@ -61,6 +62,8 @@ body {
 .program-content {
     width: 40%;
 }
+
+
 
 .program-image {
     width: 50%;
