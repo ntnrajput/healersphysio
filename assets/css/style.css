@@ -1,11 +1,13 @@
-/* Custom Animation CSS */
-.fade-in-right {
+/* css/style.css */
+
+.program-card {
   opacity: 0;
   transform: translateX(100px);
-  transition: all 0.8s ease-out;
+  transition: all 0.8s ease-in-out;
+  will-change: opacity, transform;
 }
 
-.fade-in-right.visible {
+.program-card.visible {
   opacity: 1;
   transform: translateX(0);
 }

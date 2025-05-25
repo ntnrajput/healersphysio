@@ -1,8 +1,9 @@
-// Scroll animation using IntersectionObserver
-document.addEventListener('DOMContentLoaded', () => {
-  const observers = document.querySelectorAll('.fade-in-right');
+// js/scroll-animations.js
 
-  const observer = new IntersectionObserver(entries => {
+document.addEventListener('DOMContentLoaded', () => {
+  const cards = document.querySelectorAll('.program-card');
+
+  const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
         entry.target.classList.add('visible');
@@ -11,5 +12,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }, { threshold: 0.2 });
 
-  observers.forEach(el => observer.observe(el));
+  cards.forEach(card => observer.observe(card));
 });
