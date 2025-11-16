@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Heart, Baby, Users, Briefcase, UserCheck, ArrowRight, Star, Sparkles, TrendingUp } from "lucide-react";
-import rapidiphy from "../images/rapidiphy.png";
+
 
 const ServicesOverview = () => {
   const services = [
@@ -17,7 +17,7 @@ const ServicesOverview = () => {
       borderColor: "border-pink-200",
       gradientFrom: "from-pink-500",
       gradientTo: "to-rose-500",
-      image: "/src/images/preg2.jpg",
+      image: "/images/preg2.jpg",
       badge: "Most Popular",
       badgeColor: "bg-pink-500",
       features: ["Prenatal Care", "Garbha Sanskar", "Postnatal Support"],
@@ -33,7 +33,7 @@ const ServicesOverview = () => {
       borderColor: "border-rose-200",
       gradientFrom: "from-rose-500",
       gradientTo: "to-pink-500",
-      image: "/src/images/preg3.jpg",
+      image: "/images/preg3.jpg",
       badge: "New Mothers",
       badgeColor: "bg-rose-500",
       features: ["Recovery Plan", "Core Strengthening", "Mental Wellness"],
@@ -65,7 +65,7 @@ const ServicesOverview = () => {
       borderColor: "border-blue-200",
       gradientFrom: "from-blue-500",
       gradientTo: "to-cyan-500",
-      image: "/src/images/proflex_1.jpg",
+      image: "/images/proflex_1.jpg",
       badge: "Professionals",
       badgeColor: "bg-blue-500",
       features: ["Ergonomic Setup", "Pain Prevention", "Productivity Boost"],
@@ -81,7 +81,7 @@ const ServicesOverview = () => {
       borderColor: "border-teal-200",
       gradientFrom: "from-teal-500",
       gradientTo: "to-emerald-500",
-      image: "/src/images/scnd_inn_1.jpg",
+      image: "/images/scnd_inn_1.jpg",
       badge: "Senior Care",
       badgeColor: "bg-teal-500",
       features: ["Balance Training", "Fall Prevention", "Independent Living"],
@@ -97,7 +97,7 @@ const ServicesOverview = () => {
       borderColor: "border-green-200",
       gradientFrom: "from-green-500",
       gradientTo: "to-emerald-500",
-      image: rapidiphy,
+      image: "/images/rapidiphy.png",
       badge: "Quick Results",
       badgeColor: "bg-green-500",
       features: ["Weight Loss", "Fitness Plan", "Nutrition Support"],
