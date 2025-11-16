@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Link } from "react-router-dom";
 import { Heart, Baby, Users, Briefcase, UserCheck, ArrowRight, Star, Sparkles, TrendingUp } from "lucide-react";
+import rapidiphy from "../images/rapidiphy.png";
 
 const ServicesOverview = () => {
   const services = [
@@ -96,7 +97,7 @@ const ServicesOverview = () => {
       borderColor: "border-green-200",
       gradientFrom: "from-green-500",
       gradientTo: "to-emerald-500",
-      image: "../src/images/rapidiphy.png",
+      image: rapidiphy,
       badge: "Quick Results",
       badgeColor: "bg-green-500",
       features: ["Weight Loss", "Fitness Plan", "Nutrition Support"],
