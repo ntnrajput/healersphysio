@@ -164,7 +164,7 @@ const AboutUs = () => {
       <section className="relative bg-gradient-to-br from-rose-50 to-pink-50 py-24">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/images/bg_pic_3.jpg"
+            src="/images/bg_pic_3.jpg"
             alt="About The Healers"
             className="w-full h-full object-cover opacity-30"
           />
@@ -332,7 +332,7 @@ const AboutUs = () => {
             {/* Image */}
             <div className="w-full h-full">
               <img
-                src="/src/images/pic_tina.png"
+                src="/images/pic_tina.png"
                 alt="Dr. Tina Singh - Founder & Chief Physiotherapist"
                 className="w-full h-full object-cover"
               />

@@ -46,7 +46,7 @@ const Navigation = () => {
             {/* Logo */}
             <Link to="/" className="flex items-center space-x-3 group">
               <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center transition-transform group-hover:scale-105">
-                <img src="/src/images/logo.png" alt="The Healers Logo" className="w-full h-full object-contain" />
+                <img src="/images/logo.png" alt="The Healers Logo" className="w-full h-full object-contain" />
               </div>
               <div className="flex flex-col">
                 <span className="text-2xl font-bold text-gray-900 tracking-tight">THE HEALERS</span>

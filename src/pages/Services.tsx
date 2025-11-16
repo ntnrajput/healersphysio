@@ -31,7 +31,7 @@ const Services = () => {
       color: "text-pink-600",
       bgColor: "bg-pink-50",
       gradient: "from-pink-500 to-rose-500",
-      image: "/src/images/preg4.jpg",
+      image: "/images/preg4.jpg",
       link: "/services/matra-shakti",
       badge: "For Expecting Mothers"
     },
@@ -58,7 +58,7 @@ const Services = () => {
       color: "text-rose-600",
       bgColor: "bg-rose-50",
       gradient: "from-rose-500 to-pink-500",
-      image: "/src/images/fitmom.jpg",
+      image: "/images/fitmom.jpg",
       link: "/services/fit-mom",
       badge: "For New Mothers"
     },
@@ -85,7 +85,7 @@ const Services = () => {
       color: "text-purple-600",
       bgColor: "bg-purple-50",
       gradient: "from-purple-500 to-violet-500",
-      image: "/src/images/narishakti1.jpg",
+      image: "/images/narishakti1.jpg",
       link: "/services/nari-shakti",
       badge: "For All Women"
     },
@@ -112,7 +112,7 @@ const Services = () => {
       color: "text-blue-600",
       bgColor: "bg-blue-50",
       gradient: "from-blue-500 to-cyan-500",
-      image: "/src/images/proflex_1.png",
+      image: "/images/proflex_1.png",
       link: "/services/pro-flex",
       badge: "For Professionals"
     },
@@ -139,7 +139,7 @@ const Services = () => {
       color: "text-teal-600",
       bgColor: "bg-teal-50",
       gradient: "from-teal-500 to-green-500",
-      image: "/src/images/scnd_inn.png",
+      image: "/images/scnd_inn.png",
       link: "/services/second-inn",
       badge: "For Seniors 60+"
     },
@@ -166,7 +166,7 @@ const Services = () => {
       color: "text-green-600",
       bgColor: "bg-green-50",
       gradient: "from-green-500 to-emerald-500",
-      image: "/src/images/rapidiphy.png",
+      image: "/images/rapidiphy.png",
       link: "/services/rapidi-phy",
       badge: "Fast-Track Program"
     }
@@ -230,7 +230,7 @@ const Services = () => {
       <section className="relative bg-gradient-to-br from-teal-50 via-blue-50 to-pink-50 py-24">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/images/bg_pic_2.jpg"
+            src="/images/bg_pic_2.jpg"
             alt="Professional physiotherapy services"
             className="w-full h-full object-cover opacity-15"
           />
