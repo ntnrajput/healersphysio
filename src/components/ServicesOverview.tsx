@@ -96,7 +96,7 @@ const ServicesOverview = () => {
       borderColor: "border-green-200",
       gradientFrom: "from-green-500",
       gradientTo: "to-emerald-500",
-      image: "././src/images/rapidiphy.png",
+      image: "../src/images/rapidiphy.png",
       badge: "Quick Results",
       badgeColor: "bg-green-500",
       features: ["Weight Loss", "Fitness Plan", "Nutrition Support"],
