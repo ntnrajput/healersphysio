@@ -10,89 +10,89 @@ const ProFlex = () => {
   const programFeatures = [
     {
       icon: User,
-      title: "Personalized Assessment",
-      description: "Comprehensive evaluation of your specific needs, health history, and goals.",
+      title: "Workplace Assessment",
+      description: "Comprehensive evaluation of your work posture, ergonomics, and occupational stress factors.",
       image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=300&h=200&fit=crop"
     },
     {
       icon: FileText,
-      title: "Custom Treatment Plan",
-      description: "Tailored exercise programs and therapy protocols designed just for you.",
+      title: "Ergonomic Solutions",
+      description: "Customized exercise routines and workplace modifications to prevent and treat occupational injuries.",
       image: "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=300&h=200&fit=crop"
     },
     {
       icon: Video,
-      title: "One-on-One Sessions",
-      description: "Direct video consultations with certified physiotherapists.",
+      title: "Virtual Consultations",
+      description: "Convenient online sessions that fit your work schedule - no need to take time off.",
       image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=300&h=200&fit=crop"
     },
     {
       icon: Calendar,
-      title: "Flexible Scheduling",
-      description: "Book sessions at times that work best for your schedule.",
+      title: "Flexible Timing",
+      description: "Early morning, lunch breaks, or evening sessions - book when it works for you.",
       image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=300&h=200&fit=crop"
     },
     {
       icon: Clock,
-      title: "Progress Tracking",
-      description: "Regular monitoring and adjustments to ensure optimal results.",
+      title: "Progress Monitoring",
+      description: "Regular check-ins and program adjustments to ensure sustained workplace wellness.",
       image: "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=300&h=200&fit=crop"
     },
     {
       icon: Award,
-      title: "Certified Professionals",
-      description: "Work with licensed and experienced physiotherapy specialists.",
+      title: "Occupational Health Experts",
+      description: "Specialized physiotherapists trained in workplace ergonomics and injury prevention.",
       image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=300&h=200&fit=crop"
     }
   ];
 
   const programTypes = [
     {
-      title: "Essential Program",
+      title: "Desk Worker Relief",
       duration: "4 weeks",
       sessions: "8 sessions",
       price: "$299",
       features: [
-        "Initial comprehensive assessment",
-        "Personalized exercise program",
-        "8 one-on-one video sessions (30 min each)",
-        "Progress tracking and adjustments",
-        "Educational resources",
-        "Email support"
+        "Ergonomic workstation assessment",
+        "Neck, shoulder & back pain relief exercises",
+        "8 virtual therapy sessions (30 min each)",
+        "Posture correction techniques",
+        "Desk stretching routine guide",
+        "Email support for workplace queries"
       ],
       badge: "Most Popular",
       badgeColor: "bg-teal-500"
     },
     {
-      title: "Comprehensive Program",
+      title: "Active Professional Care",
       duration: "8 weeks",
       sessions: "16 sessions",
       price: "$549",
       features: [
-        "Everything in Essential Program",
-        "16 one-on-one video sessions (45 min each)",
-        "Detailed progress reports",
-        "Nutritional guidance",
-        "Family member education session",
+        "Everything in Desk Worker Relief",
+        "16 one-on-one sessions (45 min each)",
+        "Standing & walking fatigue management",
+        "Lower back and foot pain protocols",
+        "Custom strengthening programs",
         "Priority scheduling",
-        "24/7 support chat"
+        "Workplace injury prevention training"
       ],
       badge: "Best Value",
       badgeColor: "bg-blue-500"
     },
     {
-      title: "Premium Program",
+      title: "Complete Wellness Package",
       duration: "12 weeks",
       sessions: "24 sessions",
       price: "$799",
       features: [
-        "Everything in Comprehensive Program",
-        "24 one-on-one video sessions (60 min each)",
-        "Weekly progress calls",
-        "Home equipment recommendations",
-        "Lifetime access to resources",
-        "Monthly follow-up sessions (3 months)",
-        "Direct phone line to therapist"
+        "Everything in Active Professional Care",
+        "24 comprehensive sessions (60 min each)",
+        "Stress management techniques",
+        "Corporate wellness consultation",
+        "Ergonomic equipment recommendations",
+        "3 months follow-up support",
+        "24/7 WhatsApp support"
       ],
       badge: "Complete Care",
       badgeColor: "bg-purple-500"
@@ -108,19 +108,34 @@ const ProFlex = () => {
         <div className="absolute inset-0 z-0">
           <img
             src="/src/images/preg2.jpg"
-            alt="Individual physiotherapy program"
+            alt="Professional workplace wellness"
             className="w-full h-full object-cover opacity-15"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
-              ProFlex - Ergonomic Wellcare
+              ProFlex - Ergonomic Wellcare for Professionals
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto mb-8">
-              Personalized one-on-one physiotherapy programs designed specifically for your unique 
-              needs, goals, and lifestyle. Get the attention and care you deserve.
+              Specialized physiotherapy program designed for working professionals facing occupational 
+              health challenges. Combat the effects of prolonged sitting, standing, and walking with 
+              our expert-guided wellness solutions.
             </p>
+            <div className="flex flex-wrap justify-center gap-4 text-gray-700">
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-5 h-5 text-teal-600" />
+                <span>Desk Job Pain Relief</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-5 h-5 text-teal-600" />
+                <span>Standing Work Recovery</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <CheckCircle2 className="w-5 h-5 text-teal-600" />
+                <span>Walking Job Wellness</span>
+              </div>
+            </div>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -153,16 +168,80 @@ const ProFlex = () => {
         </div>
       </section>
 
+      {/* Common Workplace Issues */}
+      <section className="py-16 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+              We Address These Occupational Hazards
+            </h2>
+            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+              Common workplace health issues affecting professionals like you
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8">
+            <Card className="bg-gradient-to-br from-red-50 to-orange-50 border-red-200">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-gray-900">
+                  Long Sitting (Desk Jobs)
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-2 text-gray-700">
+                <p>• Chronic lower back pain</p>
+                <p>• Neck and shoulder stiffness</p>
+                <p>• Carpal tunnel syndrome</p>
+                <p>• Poor posture & spinal issues</p>
+                <p>• Hip flexor tightness</p>
+                <p>• Reduced circulation</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gradient-to-br from-blue-50 to-purple-50 border-blue-200">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-gray-900">
+                  Long Standing (Retail/Healthcare)
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-2 text-gray-700">
+                <p>• Plantar fasciitis</p>
+                <p>• Varicose veins</p>
+                <p>• Knee joint pain</p>
+                <p>• Lower back strain</p>
+                <p>• Foot & ankle swelling</p>
+                <p>• Leg muscle fatigue</p>
+              </CardContent>
+            </Card>
+
+            <Card className="bg-gradient-to-br from-green-50 to-teal-50 border-green-200">
+              <CardHeader>
+                <CardTitle className="text-xl font-bold text-gray-900">
+                  Long Walking (Field Jobs)
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="space-y-2 text-gray-700">
+                <p>• Heel and arch pain</p>
+                <p>• Achilles tendinitis</p>
+                <p>• IT band syndrome</p>
+                <p>• Hip and knee overuse</p>
+                <p>• Shin splints</p>
+                <p>• General body fatigue</p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
       {/* Program Options */}
-      <section className="py-20 bg-white">
+      <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              Choose Your Program
+              Choose Your ProFlex Program
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Select the program that best fits your needs and schedule. All programs include 
-              personalized care from certified physiotherapists.
+              Select the program that best fits your professional lifestyle and health needs. 
+              All programs designed specifically for workplace wellness.
             </p>
           </div>
 
@@ -198,7 +277,7 @@ const ProFlex = () => {
                   </div>
                   
                   <Button asChild className="w-full bg-teal-600 hover:bg-teal-700">
-                    <Link to="/consultation">Choose This Program</Link>
+                    <Link to="/consultation">Enroll Now</Link>
                   </Button>
                 </CardContent>
               </Card>
@@ -208,21 +287,21 @@ const ProFlex = () => {
       </section>
 
       {/* Process Section */}
-      <section className="relative py-20 bg-gray-50">
+      <section className="relative py-20 bg-white">
         <div className="absolute inset-0 z-0">
           <img
             src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=1200&h=400&fit=crop"
-            alt="Healthcare process"
+            alt="Professional wellness process"
             className="w-full h-full object-cover opacity-5"
           />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
-              How Our Individual Programs Work
+              How ProFlex Works for Busy Professionals
             </h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              A simple, effective process designed to get you the best results
+              A streamlined process that fits your work schedule
             </p>
           </div>
 
@@ -230,23 +309,23 @@ const ProFlex = () => {
             {[
               {
                 step: "1",
-                title: "Free Consultation",
-                description: "Book your free 30-minute consultation to discuss your needs and goals."
+                title: "Free Work Assessment",
+                description: "15-minute consultation to understand your work environment and pain points."
               },
               {
                 step: "2",
-                title: "Assessment & Planning",
-                description: "Comprehensive health assessment and personalized treatment plan creation."
+                title: "Personalized Plan",
+                description: "Custom ergonomic and exercise protocol based on your occupation and symptoms."
               },
               {
                 step: "3",
-                title: "Regular Sessions",
-                description: "One-on-one video sessions with your dedicated physiotherapist."
+                title: "Flexible Sessions",
+                description: "Virtual therapy sessions scheduled around your work - before, during breaks, or after."
               },
               {
                 step: "4",
-                title: "Track Progress",
-                description: "Monitor your improvement and adjust your program as needed."
+                title: "Workplace Integration",
+                description: "Learn exercises and modifications you can do at work for lasting relief."
               }
             ].map((step, index) => (
               <div key={index} className="text-center">
@@ -262,11 +341,11 @@ const ProFlex = () => {
       </section>
 
       {/* Testimonial Section */}
-      <section className="relative py-20 bg-white">
+      <section className="relative py-20 bg-gray-50">
         <div className="absolute right-0 top-0 w-1/3 h-full overflow-hidden opacity-10">
           <img
             src="https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&h=600&fit=crop"
-            alt="Happy client"
+            alt="Happy professional"
             className="w-full h-full object-cover"
           />
         </div>
@@ -278,17 +357,57 @@ const ProFlex = () => {
               ))}
             </div>
             <blockquote className="text-2xl text-gray-700 italic mb-6">
-              "The individual program was exactly what I needed. The personalized attention and 
-              flexible scheduling made it easy to fit into my busy life as a new mom. 
-              My physiotherapist was incredibly knowledgeable and supportive."
+              "As a software developer, I was suffering from severe neck and back pain from sitting 
+              10+ hours a day. ProFlex completely transformed my workday. The virtual sessions fit 
+              perfectly into my schedule, and I've learned exercises I can do right at my desk."
             </blockquote>
-            <div className="text-lg font-semibold text-gray-900">Sarah Johnson</div>
-            <div className="text-gray-600">Postnatal Recovery Program</div>
+            <div className="text-lg font-semibold text-gray-900">Rajesh Kumar</div>
+            <div className="text-gray-600">Software Engineer, IT Company</div>
+          </div>
+
+          <div className="bg-white p-8 rounded-lg shadow-md max-w-2xl mx-auto mt-12">
+            <blockquote className="text-lg text-gray-700 italic mb-4">
+              "Working as a nurse meant being on my feet for 12-hour shifts. The foot and back pain 
+              was unbearable. ProFlex's standing worker program gave me practical solutions and 
+              strengthening exercises that actually work!"
+            </blockquote>
+            <div className="text-md font-semibold text-gray-900">Priya Sharma</div>
+            <div className="text-gray-600">Registered Nurse, Hospital</div>
           </div>
           
-          <Button asChild size="lg" className="bg-teal-600 hover:bg-teal-700">
-            <Link to="/consultation">Start Your Individual Program</Link>
+          <Button asChild size="lg" className="bg-teal-600 hover:bg-teal-700 mt-12">
+            <Link to="/consultation">Start Your Workplace Wellness Journey</Link>
           </Button>
+        </div>
+      </section>
+
+      {/* Why Choose ProFlex */}
+      <section className="py-20 bg-white">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 mb-4">
+              Why Professionals Choose ProFlex
+            </h2>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Card className="text-center p-6">
+              <div className="text-4xl font-bold text-teal-600 mb-2">500+</div>
+              <p className="text-gray-700">Professionals Treated</p>
+            </Card>
+            <Card className="text-center p-6">
+              <div className="text-4xl font-bold text-teal-600 mb-2">95%</div>
+              <p className="text-gray-700">Pain Reduction Rate</p>
+            </Card>
+            <Card className="text-center p-6">
+              <div className="text-4xl font-bold text-teal-600 mb-2">100%</div>
+              <p className="text-gray-700">Virtual Sessions</p>
+            </Card>
+            <Card className="text-center p-6">
+              <div className="text-4xl font-bold text-teal-600 mb-2">24/7</div>
+              <p className="text-gray-700">Support Available</p>
+            </Card>
+          </div>
         </div>
       </section>
 
