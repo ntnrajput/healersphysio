@@ -107,7 +107,7 @@ const ProFlex = () => {
       <section className="relative bg-gradient-to-br from-teal-50 to-blue-50 py-20">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/images/preg2.jpg"
+            src="/images/preg2.jpg"
             alt="Professional workplace wellness"
             className="w-full h-full object-cover opacity-15"
           />

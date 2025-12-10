@@ -114,7 +114,7 @@ const FitMom = () => {
       <section className="relative bg-gradient-to-br from-rose-50 via-pink-50 to-purple-50 py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/images/preg3.jpg"
+            src="/images/preg3.jpg"
             alt="Women's health and post-pregnancy recovery"
             className="w-full h-full object-cover opacity-15"
           />
@@ -505,7 +505,7 @@ const FitMom = () => {
       <section className="relative py-20 bg-gradient-to-br from-purple-600 via-pink-600 to-rose-600 text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/images/preg3.jpg"
+            src="/images/preg3.jpg"
             alt="Women's health recovery"
             className="w-full h-full object-cover"
           />

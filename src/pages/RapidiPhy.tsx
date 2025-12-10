@@ -118,7 +118,7 @@ const RapidiPhy = () => {
       <section className="relative bg-gradient-to-br from-green-50 via-teal-50 to-blue-50 py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/images/rapidiphy.png"
+            src="/images/rapidiphy.png"
             alt="Fast track weight loss program"
             className="w-full h-full object-cover opacity-15"
           />
@@ -505,7 +505,7 @@ const RapidiPhy = () => {
       <section className="relative py-20 bg-gradient-to-br from-green-600 via-teal-600 to-blue-600 text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/images/rapidiphy.png"
+            src="/images/rapidiphy.png"
             alt="Weight loss transformation"
             className="w-full h-full object-cover"
           />

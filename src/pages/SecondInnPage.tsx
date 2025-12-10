@@ -117,7 +117,7 @@ const SecondInn = () => {
       <section className="relative bg-gradient-to-br from-teal-50 via-blue-50 to-purple-50 py-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
           <img
-            src="/src/images/scnd_inn_1.jpg"
+            src="/images/scnd_inn_1.jpg"
             alt="Active seniors enjoying fitness"
             className="w-full h-full object-cover opacity-15"
           />
@@ -511,7 +511,7 @@ const SecondInn = () => {
       <section className="relative py-20 bg-gradient-to-br from-teal-600 via-blue-600 to-purple-600 text-white overflow-hidden">
         <div className="absolute inset-0 z-0 opacity-20">
           <img
-            src="/src/images/scnd_inn_1.jpg"
+            src="/images/scnd_inn_1.jpg"
             alt="Active senior living"
             className="w-full h-full object-cover"
           />
