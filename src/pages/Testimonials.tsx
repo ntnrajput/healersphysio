@@ -10,7 +10,7 @@ const testimonials = [
   {
     name: "Priya Sharma",
     title: "Fit Mom - Postnatal Recovery",
-    image: "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_w1.jpg",
     quote:
       "After my delivery, I was struggling with severe back pain and couldn't even lift my baby properly. Dr. Tina and her team at The Healers were a blessing. The postnatal exercises were tailored exactly to my needs, and within 8 weeks, I regained my strength completely. The home visit option was incredibly convenient as I didn't have to worry about taking my newborn out. Today, I'm not just pain-free but stronger than I was before pregnancy!",
     rating: 5,
@@ -20,7 +20,8 @@ const testimonials = [
   {
     name: "Anil Sharma",
     title: "Golden Years - Senior Care",
-    image: "https://images.unsplash.com/photo-1582108411679-caa89b9d9160?w=400&h=400&fit=crop&crop=faces",
+    // image: "https://images.unsplash.com/photo-1582108411679-caa89b9d9160?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_m2.jpg",
     quote:
       "At 68, I had almost given up hope of walking without pain. My knees were so stiff that even climbing stairs was a nightmare. My daughter brought me to The Healers, and it changed my life. Dr. Tina's patience and the gentle exercises slowly but surely improved my mobility. After 3 months of regular therapy, I can now walk to the park, play with my grandchildren, and even do light gardening. The respect and care they showed me made all the difference.",
     rating: 5,
@@ -30,7 +31,8 @@ const testimonials = [
   {
     name: "Neha Gupta",
     title: "Nari Shakti - Women's Health",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=400&fit=crop&crop=faces",
+    
+    image: "/images/tstmnl_w2.jpg",
     quote:
       "I was dealing with pelvic floor issues after my second pregnancy, and it was affecting my confidence and daily life. I was embarrassed to talk about it, but Dr. Tina made me feel so comfortable. The pelvic floor therapy program was exactly what I needed. The exercises were easy to follow, and the improvement was gradual but significant. Within 6 weeks, my symptoms reduced by 80%. I'm so grateful for the empathy and expertise I received here.",
     rating: 5,
@@ -40,7 +42,7 @@ const testimonials = [
   {
     name: "Rajiv Kapoor",
     title: "ProFlex - Ergonomic Wellcare",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_m1.jpg",
     quote:
       "As a software engineer, I spend 10-12 hours daily at my desk. The chronic neck and shoulder pain had become unbearable, and I was popping painkillers every day. ProFlex program was a game-changer. The ergonomic assessment of my workstation revealed so many issues I wasn't even aware of. The stretching routines and posture correction techniques are now part of my daily routine. I haven't taken a single painkiller in the last 3 months! The virtual sessions fitted perfectly into my work schedule.",
     rating: 5,
@@ -50,7 +52,7 @@ const testimonials = [
   {
     name: "Meera Singh",
     title: "Prenatal Care - Fit Mom Program",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_w3.jpg",
     quote:
       "During my 7th month of pregnancy, I developed severe lower back pain and swelling in my feet. My gynecologist recommended The Healers, and it was the best decision. Dr. Tina designed a safe exercise routine that not only relieved my pain but also prepared my body for delivery. The breathing exercises and pelvic floor preparation made my labor so much easier. I delivered naturally without complications, and my recovery was remarkably quick. I highly recommend their prenatal care to every expecting mother!",
     rating: 5,
@@ -60,7 +62,7 @@ const testimonials = [
   {
     name: "Vikram Yadav",
     title: "Post-Surgical Rehabilitation",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_m3.jpg",
     quote:
       "I underwent ACL reconstruction surgery after a cricket injury, and the orthopedic surgeon recommended physiotherapy at The Healers. The structured rehabilitation program helped me regain full range of motion in just 4 months. The team's knowledge of sports injuries was impressive. They pushed me when needed and held me back when necessary. Today, I'm back on the cricket field, playing better than before. The dedication and expertise here are unmatched!",
     rating: 5,
@@ -70,7 +72,7 @@ const testimonials = [
   {
     name: "Sunita Verma",
     title: "Geriatric Care - Golden Years",
-    image: "https://images.unsplash.com/photo-1609220136736-443140cffec6?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_w5.jpg",
     quote:
       "My mother suffered a stroke last year, and we were devastated seeing her bedridden. The doctors at SSIMS referred us to Dr. Tina for neuro-rehabilitation. The progress was slow initially, but the team never gave up. With consistent therapy and exercises, my mother started showing improvement. After 6 months, she can now walk with minimal support, feed herself, and speak clearly. The home visit service was a blessing as traveling was difficult. Dr. Tina's team gave us hope when we had none. Forever grateful!",
     rating: 5,
@@ -80,7 +82,7 @@ const testimonials = [
   {
     name: "Rohit Malhotra",
     title: "Chronic Pain Management",
-    image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_m5.jpg",
     quote:
       "I've been suffering from chronic lower back pain for 5 years due to a slip disc. I tried everything - medicines, injections, even considered surgery. A friend recommended The Healers as a last resort. The comprehensive assessment identified muscle imbalances I didn't know existed. The combination of manual therapy, core strengthening, and lifestyle modifications worked wonders. My pain level went from 8/10 to 2/10 in just 10 weeks. I can now sleep properly, exercise, and live a normal life without constant fear of pain flare-ups.",
     rating: 5,
@@ -90,7 +92,7 @@ const testimonials = [
   {
     name: "Anjali Joshi",
     title: "Corporate Wellness Program",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_w6.jpg",
     quote:
       "Our company arranged a corporate wellness session with The Healers for our entire team. As someone who works in HR and sits in meetings all day, I had developed terrible posture and frequent headaches. The ergonomic training opened my eyes to how poorly I was treating my body. Dr. Tina taught us simple desk exercises and posture techniques that take just 5 minutes but make a huge difference. My headaches have reduced by 90%, and I feel more energetic throughout the day. Many of my colleagues have reported similar benefits!",
     rating: 5,
@@ -100,7 +102,7 @@ const testimonials = [
   {
     name: "Deepak Pandey",
     title: "Sports Injury Recovery",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_m6.jpg",
     quote:
       "I'm a marathon runner and developed plantar fasciitis that threatened to end my running career. I was in so much pain that even walking was difficult. The Healers' sports rehabilitation program was exactly what I needed. The combination of manual therapy, strengthening exercises, and running technique correction not only healed my injury but also improved my performance. I recently completed a half-marathon with zero pain and my best timing ever! Dr. Tina's team understands athletes and their goals.",
     rating: 5,
@@ -110,7 +112,7 @@ const testimonials = [
   {
     name: "Kavita Sinha",
     title: "Fit Mom - Diastasis Recti Recovery",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_w7.jpg",
     quote:
       "After my twins were born, I noticed a visible bulge in my abdomen that wouldn't go away despite exercise. My doctor diagnosed it as diastasis recti and recommended specialized physiotherapy. The Healers' postnatal program focused on core rehabilitation with safe, effective exercises. Dr. Tina was so patient in explaining the condition and the healing process. After 12 weeks of dedicated therapy, my abdominal separation reduced from 4 fingers to less than 1 finger! My core strength is back, and I feel confident in my body again.",
     rating: 5,
@@ -120,7 +122,7 @@ const testimonials = [
   {
     name: "Sanjay Mishra",
     title: "Workplace Injury Recovery",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?w=400&h=400&fit=crop&crop=faces",
+    image: "/images/tstmnl_m4.jpg",
     quote:
       "I work in a manufacturing unit and injured my shoulder while lifting heavy equipment. The pain was severe, and I couldn't raise my arm above shoulder level. The company insurance covered treatment at The Healers, which was fortunate. The physiotherapy sessions were intensive but effective. Dr. Tina's team used a combination of manual therapy, exercises, and workplace ergonomics training. In 8 weeks, I regained full shoulder mobility and strength. They even visited my workplace to assess and suggest modifications. I'm back to work, pain-free, and more aware of safe lifting techniques.",
     rating: 5,
@@ -436,7 +438,7 @@ const Testimonials = () => {
             <Button asChild size="lg" className="bg-white text-teal-700 hover:bg-gray-100 text-lg px-8 hover:scale-105 transition-transform">
               <Link to="/consultation">Book Free Consultation</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-teal-700 text-lg px-8">
+            <Button asChild size="lg" className="bg-white text-teal-700 hover:bg-gray-100 text-lg px-8 hover:scale-105 transition-transform">
               <Link to="/programs">View All Programs</Link>
             </Button>
           </div>
