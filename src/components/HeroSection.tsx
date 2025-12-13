@@ -8,8 +8,7 @@ const HeroSection = () => {
     <section className="relative bg-gradient-to-br from-teal-50 via-blue-50 to-indigo-50 py-16 lg:py-24 overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
-        <div className="absolute top-0 left-0 w-96 h-96 bg-teal-500 rounded-full blur-3xl"></div>
-        <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+        <div className="absolute top-0 left-0 w-96 h-6 bg-teal-500 rounded-full blur-3xl"></div>
       </div>
 
       <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -20,19 +19,22 @@ const HeroSection = () => {
             <div className="inline-flex">
               <Badge className="bg-gradient-to-r from-teal-600 to-blue-600 text-white px-4 py-2 text-sm border-0">
                 <Heart className="w-4 h-4 mr-2 inline" />
-                Trusted by 1000+ Women Worldwide
+                Trusted by 1000+ Clients Worldwide
               </Badge>
             </div>
 
             {/* Headline */}
             <div className="space-y-6">
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
-                Comprehensive
+                Online / Offline
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-teal-600 to-blue-600">
-                  Online Physiotherapy
+                  Physiotherapy Consultations
                 </span>
-                for Women's Health
               </h1>
+              <strong className="text-xl md:text-2xl text-gray-600 leading-relaxed">
+                for Health of Women, Professionals , Old Age &  Various other Physiotherapy related Problems 
+              </strong>
+                
               <p className="text-xl md:text-2xl text-gray-600 leading-relaxed">
                 Expert physiotherapy services from the comfort of your home. Specializing in prenatal, 
                 postnatal, women's wellness, and holistic care for every stage of life.

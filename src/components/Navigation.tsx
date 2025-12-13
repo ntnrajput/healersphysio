@@ -25,7 +25,10 @@ const Navigation = () => {
             <div className="flex items-center gap-6">
               <a href="tel:+917389876573" className="flex items-center gap-2 hover:text-teal-200 transition-colors">
                 <Phone className="w-4 h-4" />
-                <span>+91 7389876573</span>
+                <strong className="text-2xl font-bold animate-pulse">
+                  +91 7389876573
+                </strong>
+
               </a>
               <a href="mailto:healersphysio@gmail.com" className="flex items-center gap-2 hover:text-teal-200 transition-colors">
                 <Mail className="w-4 h-4" />
@@ -131,7 +134,12 @@ const Navigation = () => {
                 <div className="border-t border-gray-200 mt-4 pt-4 px-4 space-y-3">
                   <a href="tel:+917389876573" className="flex items-center gap-3 text-gray-600 hover:text-teal-600">
                     <Phone className="w-5 h-5" />
-                    <span>+91 7389876573</span>
+                    
+                    <strong className="text-2xl font-bold animate-pulse">
+                      +91 7389876573
+                    </strong>
+
+
                   </a>
                   <a href="mailto:healersphysio@gmail.com" className="flex items-center gap-3 text-gray-600 hover:text-teal-600">
                     <Mail className="w-5 h-5" />
