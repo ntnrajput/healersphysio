@@ -111,7 +111,7 @@ const AboutUs = () => {
     {
       year: "2007-2012",
       title: "Bachelor of Physiotherapy (BPT)",
-      description: "Foundation in physiotherapy science, anatomy, and clinical practice."
+      description: "Foundation in physiotherapy science, anatomy & clinical practice."
     },
     {
       year: "2012-2014",
